@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Noto Serif CJK SC";
+  src: url("./NotoSerifSC-Medium.ttf") format("ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Noto Serif CJK SC";
+  src: url("./NotoSerifSC-Bold.ttf") format("ttf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Noto Serif CJK SC";
+  src: url("./NotoSerifSC-Bold.ttf") format("ttf");
+  font-weight: light;
+}
