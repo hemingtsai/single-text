@@ -32,10 +32,10 @@
     --nav-color: #f2f2f2;
     --text-color: #f3f5fd;
     /* 主要字体颜色 */
-    --sub-color: #222;
-    --gray-color: #333;
-    --link-color: #333;
-    --code-color: #222;
+    --sub-color: #999;
+    --gray-color: #bbb;
+    --link-color: #bbb;
+    --code-color: #999;
     --border-color: #ddd;
     --line-color: #f1f1f1;
   }

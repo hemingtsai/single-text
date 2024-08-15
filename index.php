@@ -1,12 +1,6 @@
 <?php
 /**
- * Text Only 为纯文本极简主题，黑白配色，对程序极简优化，主题无 JS 和图片文件载入。主题支持自定义背景、自定义菜单，保留搜索及评论功能；内置文章归档和搜索模板；已作中文字体优化，内置3种字体方案可选。<br/>
- * 发布页：<a href="https://yayu.net/projects/typecho-textonly" target="_blank">https://yayu.net/projects/typecho-textonly</a>
- *
- * @package Text Only
- * @author Jeff Chen
- * @version 1.0.0
- * @link https://yayu.net/
+ * 一个Typecho主题
  */
 if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 $this->need('header.php'); ?>
