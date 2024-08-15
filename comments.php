@@ -2,7 +2,7 @@
 <div id="comments">
     <?php $this->comments()->to($comments); ?>
     <?php if ($comments->have()): ?>
-        <h3><?php $this->commentsNum(_t('此地无评论而待君至此评论之。'), _t('评论仅一条而已。'), _t('已有 %d 条评论，然君评之则增此地之光彩也。')); ?></h3>
+        <h3><?php $this->commentsNum(_t('此地无评论而待君至此评论之。'), _t('评论仅一条而已。'), _t('已有 %d 条评论。')); ?></h3>
         <?php $comments->listComments(); ?>
         <?php $comments->pageNav('&laquo; 前一页', '后一页 &raquo;'); ?>
     <?php endif; ?>
@@ -48,6 +48,6 @@
             </form>
         </div>
     <?php else: ?>
-        <h3 style="text-align: center;"><?php _e('评论区待君久不至，已去。'); ?></h3>
+        <h3 style="text-align: center;"><?php _e('评论区待君久不至，已去。:)'); ?></h3>
     <?php endif; ?>
 </div>

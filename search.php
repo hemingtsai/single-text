@@ -27,7 +27,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
 </div>
 <?php }; ?>
 <?php elseif ( $this->is('search') && !$this->have())  : ?>
-无搜索结果，但有你则已。
+此地无结果，但有你则已。
 <?php endif; ?>
 </article>
 <?php $this->need('footer.php'); ?>
