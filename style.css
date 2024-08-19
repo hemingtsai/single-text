@@ -93,6 +93,7 @@ b {
 button {
     margin: 0;
     cursor: pointer;
+    color: var(--heading-color);
 }
 
 .screen-reader-text {
