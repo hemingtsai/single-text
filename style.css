@@ -220,7 +220,7 @@ main .title {
     margin-right: 10px;
 }
 
-form>*:last-child {
+form > *:last-child {
     margin-bottom: 0;
 }
 
@@ -324,7 +324,7 @@ input[type="submit"]:hover {
     border-top: 1px dotted var(--border-color);
 }
 
-.respond p+p {
+.respond p + p {
     margin-top: 20px;
 }
 
